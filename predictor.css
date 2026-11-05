@@ -1,0 +1,71 @@
+body{
+    background-color: #030B16;
+    color: white;
+    font-family:Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.home{
+    display: flex;
+    background-image: url(images/background.jpg);
+    justify-content: center;
+    padding-left: 35px;
+}
+
+body::selection{
+    background-color: yellowgreen;
+}
+
+.link-box{
+    height:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-box a{
+    background-color: yellowgreen;
+    font-size: 25px;
+    font-family:fantasy;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.cards{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    margin: 15px;
+    border-radius: 15px;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.card h3{
+    font-size: 20px;
+    
+}
+
+.img-container{
+    align-items: center;
+    width: 40%; 
+    display: flex; 
+    justify-content: center;
+}
+.img-container img{
+    width: 130px;
+    height: 130px;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.link-box a:hover{
+    transform: scale(1.1)
+}

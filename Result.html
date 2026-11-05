@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wrong Prediction | UCL Roast</title>
+  <link rel="stylesheet" href="Result.css">
+
+  <!-- Load club data first, then the page logic -->
+  <script src="clubs.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="error-page" id="errorPage">
+
+    <header class="topbar">
+      <a href="index.html" class="brand">UCL <span>ROAST</span></a>
+      <span class="season">2026/27 SEASON</span>
+    </header>
+
+    <section class="content">
+      <div class="club-info">
+        <img id="clubLogo" src="images/Barcelona.jpg"
+             alt="Club crest" class="club-logo">
+
+        <p class="eyebrow">PREDICTION FAILED</p>
+
+        <h1 class="error-code">404</h1>
+        <h2 id="clubName">Wrong Prediction!</h2>
+
+        <p class="joke" id="clubJoke">
+          Loading your football roast...
+        </p>
+
+        <p class="description" id="description">
+          Your Champions League prediction didn't age well.
+        </p>
+
+        <a href="predictions.html" class="back-button">
+          <span aria-hidden="true">←</span>
+          Back to Predictions
+        </a>
+      </div>
+
+      <div class="visual" aria-hidden="true">
+        <div class="stadium-glow"></div>
+        <div class="football">⚽</div>
+        <div class="visual-code">404</div>
+        <p class="visual-caption">BETTER LUCK NEXT SEASON.</p>
+      </div>
+    </section>
+
+    <footer>
+      <span>UEFA CHAMPIONS LEAGUE PREDICTION GAME</span>
+      <span>YOUR CONFIDENCE: 100% · YOUR ACCURACY: UNKNOWN</span>
+    </footer>
+
+  </main>
+</body>
+</html>
