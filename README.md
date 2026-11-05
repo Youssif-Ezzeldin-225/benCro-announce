@@ -25,5 +25,5 @@ and navigate to the project directory using this command:
 'cd benCro-announce'  
 **You don't need to install any dependencies**  
 
-## Better Ideas
+## New Ideas
 If you have another better or creative or even some weird ideas for the tournaments prediction or the announcement or for the real game BenCro or for anything. Feel free to text me on Slack @Yousef Ezzeldin and tell me your ideas.
